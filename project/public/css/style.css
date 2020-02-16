@@ -1,0 +1,255 @@
+body{
+	color: #7FCDCD;
+	background-color: black;
+  overflow-x: hidden;
+}
+
+table, th, td {
+  border: 3px solid #0F2027;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+input[type="text"], textarea {
+  color: lightblue;
+  background-color: #0F2027; 
+}
+
+.menu{
+  width:250px;
+  height:200px; 
+  margin-left:45%; 
+  margin-top:20%;
+}
+
+.singplayer_button{
+  width:150px; 
+  background: #0F2027; 
+  color:lightblue; 
+  border:2px solid black;
+}
+
+.multiplayer_button{
+  width:150px; 
+  background: #0F2027; 
+  color:lightblue; 
+  border:2px solid black;
+  margin-top:10px;
+}
+
+.multiplayer{
+  display:none;
+}
+
+.multiplayer h2, p, button{
+  text-align: center;
+}
+
+.menu_button{
+  background:#0F2027;
+   border:3px solid black; 
+   width:200px; 
+   color:lightblue;
+}
+
+.who_start_game{
+  float:left;
+  margin-left:21%; 
+  font-weight:bold;
+}
+
+.hidden_text{
+  float:left;
+  margin-left:3px; 
+  font-weight:bold; 
+  display:none;
+}
+
+.revenge_button{
+  margin-left:21%;
+  background-color: lightblue; 
+  color: black; 
+  border: 3px solid black; display:none;
+}
+
+.game_table{
+  margin-top:100px; 
+  margin-left:35%; 
+  display:none;
+}
+
+#second_row_of_table{
+  margin-top:2px;
+}
+
+#third_row_of_table{
+  margin-top:2px;
+}
+
+.square_2, .square_3, .square_5, .square_6, .square_8, .square_9{
+  margin-left: 2px;
+}
+
+.post_battle p{
+  float:left; 
+  margin-left:20%;
+}
+
+.post_battle input{
+  float:left;
+}
+
+.time{
+  margin-left:21%;
+}
+
+.winner_for_submit{
+  margin-left:21%;
+}
+
+#square{
+  width:12vh;
+  height:12vh;
+  border:3px solid #0F2027; 
+  float:left;
+}
+
+.winner{
+  display:none;
+}
+
+.who{
+  font-size:20px; 
+  color:green;
+}
+
+.draw{
+  display:none; 
+  font-size:20px; 
+  color:red;
+}
+
+.battle_history{
+  margin-top:100px; 
+  margin-left:15%;
+}
+
+#table_battle_history{
+  width:40vh;
+}
+
+.td_winner{
+  color:green;
+}
+
+.td_looser{
+  color: red;
+}
+
+.td_draw{
+  color: orange;
+}
+
+
+
+
+
+.singleplayer{
+  display:none;
+}
+
+.singleplayer button{
+  background:#0F2027; 
+  border:3px solid black; 
+  width:200px; 
+  color:lightblue;
+}
+
+.singleplayer h2, p, button{
+  text-align: center;
+}
+
+.revenge_button_singleplayer{
+  margin-left:21%; 
+  background-color: lightblue; 
+  color: black; 
+  border: 3px solid black; display:none;
+}
+
+.game_table_single{
+  margin-top:100px; 
+  margin-left:35%; 
+  display:none;
+}
+
+.square_2s, .square_3s, .square_5s, .square_6s, .square_8s, .square_9s{
+  margin-left: 2px;
+}
+
+.battle_history_singleplayer{
+  margin-top:100px; 
+  margin-left:15%;
+}
+
+img{
+  width: 11vh;
+}
+
+
+
+
+@media screen and (max-width: 650px){
+    .game_table{
+      margin-left: 22% !important;
+    }
+    .game_table_single{
+      margin-left: 22% !important;
+    }
+    .menu{
+      margin-top: 80% !important;
+      margin-left: 30% !important;
+    }
+    #square{
+      width: 20vw !important;
+      height: 20vw !important;
+    }
+    #table_battle_history{
+      width: 20vw !important; 
+    }
+    #battle_history{
+      margin-left: 30% !important;
+    }
+    footer{
+      margin-top: 400px !important;
+    }
+    img{
+      width: 11vw !important;
+    }
+    .center_image{
+      text-align: center;
+      margin-top:20% !important;
+    }
+}
+
+
+
+
+
+
+footer {
+      margin-top:250px;
+      color: red;
+      padding: 10px;
+      font-size: 20px;
+      background: #0F2027;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#author{
+      color: #FFD700;
+      font-style: italic;
+      font-weight: bold;
+}
